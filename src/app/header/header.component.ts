@@ -6,6 +6,7 @@ import { ButtonComponent } from "../shared/button/button.component";
   standalone: true,
   imports: [ButtonComponent],
   templateUrl: './header.component.html',
+  styleUrl: './header.component.css'
 })
 export class HeaderComponent {
 
