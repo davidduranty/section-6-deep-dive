@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrl: './server-status.component.css'
 
 })
-export class ServerStatusComponent {
+export class ServerStatusComponent implements OnInit {
   currentStatus: 'online' | 'offline' | 'unknown' = 'offline';
   constructor() { }
   ngOnInit(): void {
